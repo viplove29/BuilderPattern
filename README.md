@@ -65,6 +65,10 @@ Customer {firstName='Alice', lastName='Smith', email='null', phone='null', addre
 1. Open the project in your favorite IDE (e.g., IntelliJ IDEA).
 2. Build and run the `BuilderPatternInJavaRealTime` class to test the usage of the **Builder Pattern**.
 
+## Flow Chart : 
+![image](https://github.com/user-attachments/assets/d8fe5d27-f4d7-4aed-9ea4-ee7d3c62af38)
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 ## Contribution

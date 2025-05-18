@@ -94,7 +94,7 @@ public class BuilderPatternInJavaRealTime {
         // Create a Customer using the Builder pattern
         Customer customer = new Customer.CustomerBuilder("John", "Doe")
                 .email("john.doe@example.com")
-                .phone("123-456-7890")
+                .phone("123433546467")
                 .address("123 Main Street, City, Country")
                 .build();
 
@@ -105,5 +105,9 @@ public class BuilderPatternInJavaRealTime {
                 .build();
 
         System.out.println(simpleCustomer);
+
+        // Create another Customer with only required fields
+        Customer thirdCustomer = new Customer.CustomerBuilder("Viplove", "Bisen").address("123 Main Street, City, Country").build();
+        System.out.println(thirdCustomer);
     }
 }
